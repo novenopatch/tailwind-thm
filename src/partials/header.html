@@ -1,0 +1,147 @@
+<header class="header">
+  <nav class="navbar container">
+    <!-- logo -->
+    <div class="order-0">
+      <a href="index.html">
+        <img src="images/logo.svg" height="30" width="147" alt="logo" />
+      </a>
+    </div>
+
+    <!-- navbar toggler -->
+    <button class="navbar-toggler group relative" aria-label="navbar toggler">
+      <div
+        class="relative flex h-[30px] w-[30px] transform items-center justify-center overflow-hidden rounded-full ring-0 transition-all duration-200">
+        <div
+          class="flex h-[15px] w-[18px] origin-center transform flex-col justify-between overflow-hidden transition-all duration-300 group-[.active]:h-[21px]">
+          <div
+            class="h-[2px] w-7 origin-left transform bg-theme-dark transition-all duration-300 group-[.active]:translate-x-10"></div>
+          <div
+            class="h-[2px] w-7 transform rounded bg-theme-dark transition-all delay-75 duration-300 group-[.active]:translate-x-10"></div>
+          <div
+            class="h-[2px] w-7 origin-left transform bg-theme-dark transition-all delay-150 duration-300 group-[.active]:translate-x-10"></div>
+          <div
+            class="absolute top-2.5 flex w-0 -translate-x-10 transform items-center justify-between transition-all duration-500 group-[.active]:w-12 group-[.active]:translate-x-0">
+            <div
+              class="absolute h-[2px] w-5 rotate-0 transform bg-theme-dark transition-all delay-300 duration-500 group-[.active]:rotate-45"></div>
+            <div
+              class="absolute h-[2px] w-5 -rotate-0 transform bg-theme-dark transition-all delay-300 duration-500 group-[.active]:-rotate-45"></div>
+          </div>
+        </div>
+      </div>
+    </button>
+    <!-- /navbar toggler -->
+
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-2 hidden w-full flex-[0_0_100%] lg:order-1 lg:flex lg:w-auto lg:flex-auto lg:justify-center lg:space-x-5">
+      <li class="nav-item">
+        <a
+          href="index.html"
+          class="nav-link @@if (context.page === 'home'){active}"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="about.html"
+          class="nav-link @@if (context.page === 'about'){active}"
+          >About</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="blog.html"
+          class="nav-link @@if (context.page === 'blog'){active}"
+          >Blog</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          href="how-it-works.html"
+          class="nav-link @@if (context.page === 'how-it-works'){active}"
+          >How It Works</a
+        >
+      </li>
+      <li class="nav-item nav-dropdown group relative">
+        <span class="nav-link inline-flex items-center">
+          Pages
+          <i class="fa-solid fa-chevron-down arrow-icon"></i>
+        </span>
+        <ul
+          class="nav-dropdown-list lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
+          <li class="nav-dropdown-item">
+            <a
+              href="career.html"
+              class="nav-dropdown-link @@if (context.page === 'career'){active}"
+              >Career</a
+            >
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="career-single.html"
+              class="nav-dropdown-link @@if (context.page === 'career-single'){active}">
+              Career Single
+            </a>
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="features.html"
+              class="nav-dropdown-link @@if (context.page === 'features'){active}"
+              >Features</a
+            >
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="integrations.html"
+              class="nav-dropdown-link @@if (context.page === 'integrations'){active}">
+              Integrations
+            </a>
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="integration-single.html"
+              class="nav-dropdown-link @@if (context.page === 'integration-single'){active}">
+              Integration Single
+            </a>
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="pricing.html"
+              class="nav-dropdown-link @@if (context.page === 'pricing'){active}"
+              >Pricing</a
+            >
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="changelog.html"
+              class="nav-dropdown-link @@if (context.page === 'changelog'){active}"
+              >Changelog</a
+            >
+          </li>
+          <li class="nav-dropdown-item">
+            <a
+              href="terms-conditions.html"
+              class="nav-dropdown-link @@if (context.page === 'terms'){active}"
+              >Terms & Conditions</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a
+          href="contact.html"
+          class="nav-link @@if (context.page === 'contact'){active}"
+          >Contact</a
+        >
+      </li>
+      <li class="nav-item mt-3.5 lg:hidden">
+        <a class="btn btn-white btn-sm border-border" href="signin.html">
+          sign in Now
+        </a>
+      </li>
+    </ul>
+    <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
+      <a class="btn btn-white btn-sm" href="signin.html">sign in Now</a>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,232 @@
+@@include('header.html',{"page": "integrations"})
+
+<!-- floating assets -->
+<img
+  class="floating-bubble-1 absolute right-0 top-0 -z-[1]"
+  src="images/floating-bubble-1.svg"
+  alt="" />
+<img
+  class="floating-bubble-2 absolute left-0 top-[387px] -z-[1]"
+  src="images/floating-bubble-2.svg"
+  alt="" />
+<img
+  class="floating-bubble-3 absolute right-0 top-[605px] -z-[1]"
+  src="images/floating-bubble-3.svg"
+  alt="" />
+<!-- ./end floating assets -->
+
+<!-- Common hero -->
+<section class="page-hero pb-10 pt-16">
+  <div class="container">
+    <div class="text-center">
+      @@include("components/breadcrumb.html",{ "item" : "Integrations"})
+    </div>
+    <div class="page-hero-content mx-auto max-w-[768px] text-center">
+      <h1 class="mb-5 mt-8">
+        How To Integrate <br />
+        With Pinwheel
+      </h1>
+      <p>
+        Donec sollicitudin molestie malesda. Donec sollitudin molestie <br />
+        malesuada Mauris pellentesque nec egestas non nisi Cras
+      </p>
+    </div>
+  </div>
+</section>
+<!-- end Common hero -->
+
+<!-- Integrations -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="lg:col-10">
+        <ul class="integration-tab filter-list justify-center">
+          <li>
+            <a
+              class="filter-btn filter-btn-active btn btn-sm"
+              data-group="all"
+              href="#">
+              All togethers
+            </a>
+          </li>
+          <li>
+            <a class="filter-btn btn btn-sm" data-group="social" href="#">
+              Social media
+            </a>
+          </li>
+          <li>
+            <a class="filter-btn btn btn-sm" data-group="streaming" href="#">
+              Streaming
+            </a>
+          </li>
+          <li>
+            <a class="filter-btn btn btn-sm" data-group="productivity" href="#">
+              Productivity
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="filter-items row pt-10">
+      <div class="mb-8 md:col-6 lg:col-4" data-groups='["social"]'>
+        <div class="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+          <div class="integration-card-head flex items-center space-x-4">
+            <img src="images/icons/facebook-colored.svg" alt="" />
+            <div>
+              <h4 class="h4">Facebook</h4>
+              <span class="font-medium">Social media</span>
+            </div>
+          </div>
+          <div class="my-5 border-y border-border py-5">
+            <p>
+              Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec
+              velit neque, autor sit amet aliuam vel
+            </p>
+          </div>
+          <a
+            class="group inline-flex items-center font-semibold text-dark"
+            href="integration-single.html">
+            View integration
+            <div
+              class="ml-1.5 transition-transform duration-300 group-hover:translate-x-1.5">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-8 md:col-6 lg:col-4" data-groups='["social"]'>
+        <div class="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+          <div class="integration-card-head flex items-center space-x-4">
+            <img src="images/icons/twitter-colored.svg" alt="" />
+            <div>
+              <h4 class="h4">Twitter</h4>
+              <span class="font-medium">Social media</span>
+            </div>
+          </div>
+          <div class="my-5 border-y border-border py-5">
+            <p>
+              Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec
+              velit neque, autor sit amet aliuam vel
+            </p>
+          </div>
+          <a
+            class="group inline-flex items-center font-semibold text-dark"
+            href="integration-single.html">
+            View integration
+            <div
+              class="ml-1.5 transition-transform duration-300 group-hover:translate-x-1.5">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-8 md:col-6 lg:col-4" data-groups='["productivity"]'>
+        <div class="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+          <div class="integration-card-head flex items-center space-x-4">
+            <img src="images/icons/google-colored.svg" alt="" />
+            <div>
+              <h4 class="h4">Google</h4>
+              <span class="font-medium">Productivity</span>
+            </div>
+          </div>
+          <div class="my-5 border-y border-border py-5">
+            <p>
+              Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec
+              velit neque, autor sit amet aliuam vel
+            </p>
+          </div>
+          <a
+            class="group inline-flex items-center font-semibold text-dark"
+            href="integration-single.html">
+            View integration
+            <div
+              class="ml-1.5 transition-transform duration-300 group-hover:translate-x-1.5">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-8 md:col-6 lg:col-4" data-groups='["streaming"]'>
+        <div class="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+          <div class="integration-card-head flex items-center space-x-4">
+            <img src="images/icons/youtube-colored.svg" alt="" />
+            <div>
+              <h4 class="h4">YouTube</h4>
+              <span class="font-medium">Streaming</span>
+            </div>
+          </div>
+          <div class="my-5 border-y border-border py-5">
+            <p>
+              Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec
+              velit neque, autor sit amet aliuam vel
+            </p>
+          </div>
+          <a
+            class="group inline-flex items-center font-semibold text-dark"
+            href="integration-single.html">
+            View integration
+            <div
+              class="ml-1.5 transition-transform duration-300 group-hover:translate-x-1.5">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-8 md:col-6 lg:col-4" data-groups='["productivity"]'>
+        <div class="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+          <div class="integration-card-head flex items-center space-x-4">
+            <img src="images/icons/webflow-colored.svg" alt="" />
+            <div>
+              <h4 class="h4">Webflow</h4>
+              <span class="font-medium">Productivity</span>
+            </div>
+          </div>
+          <div class="my-5 border-y border-border py-5">
+            <p>
+              Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec
+              velit neque, autor sit amet aliuam vel
+            </p>
+          </div>
+          <a
+            class="group inline-flex items-center font-semibold text-dark"
+            href="integration-single.html">
+            View integration
+            <div
+              class="ml-1.5 transition-transform duration-300 group-hover:translate-x-1.5">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-8 md:col-6 lg:col-4" data-groups='["social"]'>
+        <div class="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+          <div class="integration-card-head flex items-center space-x-4">
+            <img src="images/icons/pinterest-colored.svg" alt="" />
+            <div>
+              <h4 class="h4">Pinterest</h4>
+              <span class="font-medium">Social media</span>
+            </div>
+          </div>
+          <div class="my-5 border-y border-border py-5">
+            <p>
+              Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec
+              velit neque, autor sit amet aliuam vel
+            </p>
+          </div>
+          <a
+            class="group inline-flex items-center font-semibold text-dark"
+            href="integration-single.html">
+            View integration
+            <div
+              class="ml-1.5 transition-transform duration-300 group-hover:translate-x-1.5">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ./end Integrations -->
+
+@@include('footer.html')
