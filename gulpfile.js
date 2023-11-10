@@ -33,7 +33,7 @@ var path = {
 
   // build paths
   build: {
-    dir: "theme/",
+    dir: "docs/",
   },
 };
 
@@ -127,7 +127,7 @@ gulp.task("public", function () {
 
 // Clean Theme Folder
 gulp.task("clean", function (cb) {
-  rimraf("./theme", cb);
+  rimraf("./docs", cb);
 });
 
 // Watch Task
